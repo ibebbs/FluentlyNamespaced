@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace FluentlyNamespaced.Controllers
+namespace FluentlyNamespaced.Person
 {
-    [Route("api/[controller]")]
+    [Route("api/person")]
     [ApiController]
     public class Controller : ControllerBase
     {
